@@ -1,0 +1,31 @@
+.home-wrapper {
+    background-color: url(../../static/assets/images/backgrounds/areial-of-stadium.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slideshow-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        width: 76%;
+        background-color: black;
+        height: 400px;
+
+        .slideshow-left-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: white;
+        }
+
+        .slideshow-right-column {
+
+        }
+    }
+
+}
