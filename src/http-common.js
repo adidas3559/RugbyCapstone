@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://192.168.1.13:8080/api",
+  baseURL: "https://spf-bottega-capstone-api.herokuapp.com/api",
   headers: {
     "Content-type": "application/json"
   }
