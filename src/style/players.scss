@@ -1,0 +1,85 @@
+//add-payers
+.submit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-group {
+        padding: 20px;
+        font-size: 18px;
+
+        .form-control {
+            padding: 5px 5px;
+            margin: 0px 18px;
+            width: 300px;
+        }
+    }
+
+    .btn {
+        padding: 5px 10px;
+        margin-left: 20px;
+    }
+}
+
+//players-list
+.player-list-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .players-column__list {
+
+
+        h4 {
+            font-size: 25px;
+        }
+
+        .player-list-wrapper {
+            margin: 30px 50px;
+
+            .player-list-item {
+                font-size: 20px;
+
+                &:hover {
+                    color: red;
+                    background-color: violet;
+                }
+            }
+        }
+    }
+
+
+    .players-column__info {
+        font-size: 15px;
+
+        .player-link {
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+
+//edit players
+.edit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+
+    .form-group {
+        padding: 20px;
+        font-size: 18px;
+
+        .form-control {
+            padding: 5px 5px;
+            margin: 0px 18px;
+            width: 300px;
+        }
+    }
+
+    .btn {
+        padding: 5px 10px;
+        margin-left: 20px;
+    }
+}

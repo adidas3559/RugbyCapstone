@@ -1,0 +1,50 @@
+.square-wrapper {
+
+
+    .square-pair {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 400px;
+    
+        .square-image {
+
+        }
+
+        .square-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .square-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: white;
+
+            .btn {
+                background-color: gray;
+                color: white;
+                font-size: 1.25em;
+                padding: 10px 50px;
+                margin-top: 20px;
+                border: 1px solid gray;
+                border-radius: 2px;
+                outline: none;
+                transition: .3s;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .square-text p {
+            margin: 0px 50px;
+        }
+
+    }
+}

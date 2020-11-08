@@ -13,7 +13,7 @@ export default class SlideshowContainer extends Component {
 
         this.state = {
             id: 1,
-            title: "Welcome to Rugby",
+            title: "Join the Team!",
             subtitle: "Rugby Rugby Rugby",
             image: slideshow1,
             link: "join-team"
@@ -24,13 +24,6 @@ export default class SlideshowContainer extends Component {
     }
 
 
-    //THIS WILL SET A BUNCH OF PICTURES AS DATA.. this function might pull pictures from database or api, I'm not sure yet
-    //ASK IF I CAN USE THE PORTFOLIO API AND GET THE PICTURES FROM THERE FOR THE PROJECT
-    //this won't be how it handles in production, it will simply have the pictures loaded in the slideshow
-    //ask if this is enough. If not, discuss other options:
-    //admin page: change pictures in api similar to the portfolio project. This might be too similar tho.
-    //facebook: gather information from facebook to share our posts in our own format. NOT JUST USING FACEBOOK'S EMBEDDED FEATURE. it looks like crap
-    //player list: have a list of player in a sql database and be able to pull them up and display them using python
     setSlide(n) {
 
         if(n === 1) {
@@ -45,7 +38,7 @@ export default class SlideshowContainer extends Component {
         else if (n === 2) {
             this.setState({
                 id: 2,
-                title: "Welcome to Rugby2",
+                title: "Alumni Welcome!",
                 subtitle: "Rugby Rugby Rugby2",
                 image: slideshow2,
                 link: "alumni"
@@ -55,10 +48,10 @@ export default class SlideshowContainer extends Component {
         else if (n ===3) {
             this.setState({
                 id: 3,
-                title: "Welcome to Rugby3",
+                title: "Meet The Players",
                 subtitle: "Rugby Rugby Rugby3",
                 image: slideshow3,
-                link: "fort-riley"
+                link: "players"
             });
         }
 
@@ -103,6 +96,20 @@ export default class SlideshowContainer extends Component {
         this.setSlide(n);
     }
 
+    deleteTimer() {
+        clearInterval(this.interval);
+    }
+
+    forwardSlide(n) {
+        this.incrementSlide(n);
+        this.deleteTimer();
+    }
+
+    backwardsSlide(n) {
+        this.decreaseSlide(n);
+        this.deleteTimer();
+    }
+
 
     render() { 
 
@@ -116,18 +123,14 @@ export default class SlideshowContainer extends Component {
                         {this.showSlide()}
                     </div>
 
-                    <button className="prev" onClick={() => this.decreaseSlide(this.state.id)}>&#10094;</button>
-                    <button className="next" onClick={() => this.incrementSlide(this.state.id)}>&#10095;</button>
+
+                    <button className="prev" onClick={() => this.backwardsSlide(this.state.id)}>&#10094;</button>
+                    <button className="next" onClick={() => this.forwardSlide(this.state.id)}>&#10095;</button>
 
                 </div>
 
                 <br />
 
-                <div style={{textAlign: "center"}}>
-                    <span className="dot" ></span>
-                    <span className="dot" ></span>
-                    <span className="dot" ></span>
-                </div>
 
             </div>
 

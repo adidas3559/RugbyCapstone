@@ -1,0 +1,31 @@
+.footer-section {
+    background-color: #551A8b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    //height: 200px;
+    margin: 0px -8px;
+    border-top: 3px solid gold;
+    width: 100%;
+
+    .footer-image img {
+        margin-top: 10px;
+        width: 100px;
+        height: 100%;
+    }
+
+    .social-media-links {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-media-links a {
+        font-size: 1.5em;
+        color: white;
+    }
+}

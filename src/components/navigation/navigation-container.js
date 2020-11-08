@@ -30,6 +30,18 @@ const NavigationComponent = (props) => {
                             Alumni
                         </NavLink>
                     </div>
+
+                    <div className="nav-link-wrapper">
+                        <NavLink exact to={"/add"} activeClassName="nav-link-active">
+                            Add
+                        </NavLink>
+                    </div>
+
+                    <div className="nav-link-wrapper">
+                        <NavLink exact to={"/players"} activeClassName="nav-link-active">
+                            players
+                        </NavLink>
+                    </div>
                 </div>
 
             </div>
