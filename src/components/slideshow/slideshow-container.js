@@ -29,7 +29,7 @@ export default class SlideshowContainer extends Component {
         if(n === 1) {
             this.setState({
                 id: 1,
-                title: "Welcome to Rugby",
+                title: "Join the Team!",
                 subtitle: "Rugby Rugby Rugby",
                 image: slideshow1,
                 link: "join-team"
