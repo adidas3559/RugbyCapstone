@@ -48,3 +48,23 @@
 
     }
 }
+
+@media (max-width:48em) {
+    .square-wrapper {
+
+
+        .square-pair {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 90px 0px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+}

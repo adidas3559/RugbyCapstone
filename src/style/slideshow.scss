@@ -60,3 +60,25 @@
     }
 }
 
+@media (max-width:48em) {
+    .slideshow-container {
+
+
+        .slideshow-picture {
+
+
+            .slideshow-item-wrapper {
+                margin-left: 30px;
+            }
+
+            .text {
+                font-size: 40px;
+            }
+
+            .prev, .next {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
