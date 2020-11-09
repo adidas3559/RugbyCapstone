@@ -19,7 +19,7 @@ export default class SlideshowItem extends Component {
 
                 <Link to={`/${link}`}>
                     <div className="mySlides"
-                         style={{backgroundImage: "url(" + image + ")", backgroundPosition: "center", width: "700px", backgroundSize: "cover"}}
+                         style={{backgroundImage: "url(" + image + ")", backgroundPosition: "center", backgroundSize: "cover"}}
                     >
                         <div className="text"> {title} </div>
                     </div>

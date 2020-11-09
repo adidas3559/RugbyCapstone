@@ -68,7 +68,7 @@
 
 
             .slideshow-item-wrapper {
-                margin-left: 30px;
+                //margin-left: 30px;
             }
 
             .text {
@@ -76,6 +76,10 @@
             }
 
             .prev, .next {
+                font-size: 40px;
+            }
+
+            .prev:hover, .next:hover {
                 font-size: 40px;
             }
         }
