@@ -24,7 +24,7 @@ const NavigationComponent = (props) => {
 
                     <div className="nav-link-wrapper">
                         <NavLink exact to="/join-team" activeClassName="nav-link-active">
-                            Join Team
+                            Join
                         </NavLink>
                     </div>
 
@@ -42,7 +42,7 @@ const NavigationComponent = (props) => {
 
                     <div className="nav-link-wrapper">
                         <NavLink exact to={"/players"} activeClassName="nav-link-active">
-                            players
+                            Players
                         </NavLink>
                     </div>
 
@@ -60,7 +60,7 @@ const NavigationComponent = (props) => {
                                     <li>Home</li>
                                 </Link>
                                 <Link to={"/join-team"}>
-                                    <li>Join Team</li>
+                                    <li>Join</li>
                                 </Link>
                                 <Link to={"/alumni"}>
                                     <li>Alumni</li>

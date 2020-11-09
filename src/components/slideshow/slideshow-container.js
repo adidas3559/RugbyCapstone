@@ -59,7 +59,7 @@ export default class SlideshowContainer extends Component {
     }
 
     componentDidMount() {
-        this.interval = setInterval(() => this.incrementSlide(this.state.id), 5000);
+        this.interval = setInterval(() => this.incrementSlide(this.state.id), 2000);
     }
     
     componentWillUnmount() {
