@@ -96,6 +96,7 @@ export default class PlayersList extends Component {
                             <ul className="player-list-wrapper">
                                 {players && players.map((player, index) => (
                                     <li
+                                        key={player.id}
                                         className={
                                             "player-list-item " +
                                             (index === currentIndex ? "active" : "")
