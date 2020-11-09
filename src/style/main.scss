@@ -74,6 +74,20 @@ body {
     }
 }
 
+@media (max-width:48em) {
+    .page-wrapper {
+
+
+        .page-content-wrapper {
+
+
+         p {
+             font-size: 25px;
+         }   
+        }
+    }
+}
+
 
 
 @import "./navigation.scss";

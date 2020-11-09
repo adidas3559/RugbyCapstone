@@ -83,3 +83,26 @@
         margin-left: 20px;
     }
 }
+
+@media (max-width:48em) {
+    .player-list-page-wrapper {
+        .players-column__list {
+            h4 {
+                font-size: 40px;
+            }
+            .player-list-wrapper {
+                .player-list-item {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .players-column__info {
+            font-size: 35px;
+
+            .player-link {
+                font-size: 30px;
+            }
+        }
+    }
+}
