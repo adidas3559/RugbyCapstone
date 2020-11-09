@@ -33,3 +33,20 @@
     }
 
 }
+
+@media (max-width:48em) {
+    .home-wrapper {
+        width: 100vw;
+
+        .home-content-wrapper {
+
+
+
+            .slideshow-wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+                height: 400px;
+            }
+        }
+    }
+}
