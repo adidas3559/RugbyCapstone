@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function() {
+
     return (
         <div className="square-wrapper">
                     
@@ -15,6 +16,7 @@ export default function() {
                             <Link to={"join-team"} >
                                 <button type="button" className="btn">Go</button>
                             </Link>
+
                         </div>                        
                     </div>
 
@@ -54,6 +56,19 @@ export default function() {
                         </div>
                         <div className="square-image">
                             <img src={ require("../../../static/assets/images/squares/jasonRuns.jpg")} />
+                        </div>
+                    </div>
+
+                    <div className="square-pair">
+                        <div className="square-text">
+                            <h1>Alumni Welcome!</h1>
+                            <p>There's always many K-State/Fort Riley Alumni to continue being active in our rugby community! Support the current team or connect with other Alumni.</p>
+                            <Link to={"join-team"} >
+                                <button type="button" className="btn">Go</button>
+                            </Link>
+                        </div>
+                        <div className="square-image">
+                            <img src={ require("../../../static/assets/images/squares/alumni.png")} />
                         </div>
                     </div>
 

@@ -7,6 +7,7 @@ import Alumni from "./pages/alumni";
 import JoinTeam from "./pages/join-team";
 import NoMatch from "./pages/no-match";
 import Footer from "./footer/footer";
+import FortRiley from "./pages/fort-riley";
 
 import AddPlayers from "./players/add-players.component";
 import Players from "./players/players.component";
@@ -18,6 +19,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
+        {/* <NavigationContainer /> */}
         <Router>
           <div>
             <NavigationContainer />
@@ -26,6 +28,7 @@ export default class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/alumni" component={Alumni} />
               <Route path="/join-team" component={JoinTeam} />
+              <Route path="/fort-riley" component={FortRiley} />
 
               <Route exact path="/players" component={PlayersList} />
               <Route exact path="/add" component={AddPlayers} />

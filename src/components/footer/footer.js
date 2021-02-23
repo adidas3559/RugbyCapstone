@@ -25,6 +25,7 @@ export default function() {
                         <img src={require ("../../../static/assets/images/twitter-icon.png")} />
                     </a>
                 </div>
+
                 
             </div>
             
