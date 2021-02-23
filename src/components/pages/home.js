@@ -18,7 +18,20 @@ export default function() {
                 </div>
                 {/* end of slideshow wrapper */}
 
-
+                <div className="middleTier">
+                    {/* Scroll for more info! */}
+                    {/* <div className="page-image-wrapper">
+                        <img src={require("../../../static/assets/images/squares/alumni1.jpg")} />
+                    </div>
+                    
+                    <div className="page-image-wrapper">
+                        <img src={require("../../../static/assets/images/squares/alumni1.jpg")} />
+                    </div>
+                    
+                    <div className="page-image-wrapper">
+                        <img src={require("../../../static/assets/images/squares/alumni1.jpg")} />
+                    </div> */}
+                </div>
 
                 <Square />
                 

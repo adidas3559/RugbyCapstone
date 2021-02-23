@@ -35,45 +35,6 @@ body {
     width: 100vw;
 }
 
-.page-wrapper {
-    height: 100%;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    .page-content-wrapper {
-        min-height: 500px;
-        width: 76%;
-        background-color: black;
-    }
-
-    h1 {
-        font-size: 40px;
-        color: white;
-    }
-
-    .page-image-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    img {
-        height: 400px;
-        width: 90%;
-        object-fit: cover;
-        margin-left: 10px;
-    }
-
-    p {
-        color: white;
-        font-size: 18px;
-        padding: 10px;
-        line-height: 1.4em;
-        margin: 100px 50px;
-    }
-}
 
 @media (max-width:48em) {
     .page-wrapper {
@@ -92,8 +53,10 @@ body {
 
 
 @import "./navigation.scss";
+@import "./pages.scss";
 @import "./home.scss";
 @import "./slideshow.scss";
 @import "./square.scss";
 @import "./footer.scss";
 @import "./players.scss";
+@import "./middleTier.scss";

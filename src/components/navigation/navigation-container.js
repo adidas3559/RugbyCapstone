@@ -35,6 +35,12 @@ const NavigationComponent = (props) => {
                     </div>
 
                     <div className="nav-link-wrapper">
+                        <NavLink exact to="/fort-riley" activeClassName="nav-link-active">
+                            Fort Riley
+                        </NavLink>
+                    </div>
+
+                    <div className="nav-link-wrapper">
                         <NavLink exact to={"/add"} activeClassName="nav-link-active">
                             Add
                         </NavLink>
@@ -64,6 +70,9 @@ const NavigationComponent = (props) => {
                                 </Link>
                                 <Link to={"/alumni"}>
                                     <li>Alumni</li>
+                                </Link>
+                                <Link to={"/fort-riley"}>
+                                    <li>Fort Riley</li>
                                 </Link>
                                 <Link to={"/add"}>
                                     <li>Add</li>

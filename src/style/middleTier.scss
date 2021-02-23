@@ -1,0 +1,20 @@
+.middleTier { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: rgb(66, 66, 65) 1px solid;
+    // margin: 5%;
+    padding: 10px 0px;
+    font-size: 30px;
+    // background-color: white;
+
+    .page-image-wrapper {
+
+
+        img {
+            width: 80%;
+            margin-left: 10%;
+            // height: 20%;
+        }
+    }
+}
