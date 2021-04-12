@@ -2,8 +2,8 @@
   "name": "react-redux-router",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
-  "engines":{
-    "node": "12.x"
+  "engines": {
+    "node": "14.x"
   },
   "scripts": {
     "preinstall": "npm set audit false",
@@ -16,9 +16,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:bottega-code-school/js-builder.git"
-  },
-  "engines": {
-    "node": "14.x"
   },
   "keywords": [
     "es6",
